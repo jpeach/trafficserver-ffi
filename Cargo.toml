@@ -1,0 +1,8 @@
+[package]
+name = "trafficserver-ffi"
+version = "7.1.2"
+authors = ["James Peach <jpeach@apache.org>"]
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.33.1"
