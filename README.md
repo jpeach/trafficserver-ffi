@@ -1,12 +1,14 @@
 # trafficserver-ffi
-Raw Rust bindings for the Apache TrafficServer plugin API.
+Raw Rust bindings for the
+[Apache Traffic Server](https://trafficserver.apache.org/)
+plugin API.
 
 ## Building the bindings
 
-Building the TrafficServer API bindings uses
+Building the Traffic Server API bindings uses
 [traffic_layout](https://docs.trafficserver.apache.org/en/latest/appendices/command-line/traffic_layout.en.html)
 to locate the TrafficServer installation paths, so if you need to generate
-bindings for a specific version of TrafficServer, make sure that the correct
+bindings for a specific version of Traffic Server, make sure that the correct
 [traffic_layout](https://docs.trafficserver.apache.org/en/latest/appendices/command-line/traffic_layout.en.html)
 program is first in your `PATH`.
 
